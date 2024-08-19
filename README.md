@@ -82,3 +82,9 @@ Before you begin, ensure that the following are installed on your system:
 
 ## 7. Check the Metaflow UI
    As the project runs, you can monitor the progress and view the results in the Metaflow UI by navigating to http://localhost:8083.
+
+## 8. Stop docker containers
+   To stop all the containers you were working with, you can run:
+   ```bash
+   docker stop mf-postgres mf-minio mf-service mf-ui
+   ```
