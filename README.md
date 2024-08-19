@@ -39,7 +39,8 @@ Before you begin, ensure that the following are installed on your system:
    To build and set up the Metaflow UI, execute the provided bash script:
 
    ```bash
-   bash install_metaflow-ui.sh
+   chmod +x install_metaflow-ui.sh
+   ./install_metaflow-ui.sh
    ```
   This script will set up the necessary Docker containers and services to run the Metaflow UI.
 
@@ -60,7 +61,8 @@ Before you begin, ensure that the following are installed on your system:
 ## 5. Create a New Project
   To create a new Metaflow project with a template, run the following script:
   ```bash
-  bash create_metaflow_project.sh
+  chmod +x create_metaflow_project.sh
+  ./create_metaflow_project.sh
   ```
   This script will generate a project template with Metaflow, including directories for data, flows, scripts, and tests, as well as a configuration file and example flows.
 
